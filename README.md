@@ -1,50 +1,63 @@
 # Marketing Mix Modeling
 
-Enterprise-inspired implementation of Marketing Mix Modeling (MMM) using Bayesian and classical statistical techniques to measure marketing effectiveness and optimize investment decisions.
+> Enterprise-inspired Marketing Mix Modeling framework built using **Python**, **Bayesian Modeling**, and **Classical Regression** to optimize marketing investments and generate actionable business insights.
 
-> **Note:** This project uses synthetic data and independently developed code for educational purposes. It does not contain proprietary company code or datasets.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Statistics](https://img.shields.io/badge/Statistics-0066CC?style=flat)
+![Bayesian](https://img.shields.io/badge/Bayesian-MMM-blue?style=flat)
 
-## Business Problem
+---
 
-Organizations invest across multiple marketing channels, but understanding each channel's true contribution to business outcomes is challenging.
+## Why this project?
 
-This project demonstrates how to:
+Marketing teams invest across multiple channels—TV, Digital, Sales Calls, PR, Email—but measuring the true incremental impact of each channel is challenging.
 
-- Measure incremental channel impact
-- Compare OLS vs Bayesian MMM
-- Apply Adstock and Saturation transformations
-- Estimate marketing ROI
-- Generate executive-ready insights
+This project demonstrates an enterprise-style Marketing Mix Modeling workflow using **synthetic data**, ensuring no proprietary company information is included.
 
-## Architecture
+---
 
-[Architecture Diagram]
+## Project Roadmap
 
-## Features
+- [ ] Synthetic marketing dataset
+- [ ] Exploratory Data Analysis
+- [ ] Feature Engineering
+- [ ] Adstock Transformation
+- [ ] Saturation Curves
+- [ ] OLS Model
+- [ ] Ridge & Lasso
+- [ ] Bayesian MMM
+- [ ] ROI Decomposition
+- [ ] Executive Dashboard
 
-- OLS Regression
-- Bayesian MMM
-- Ridge & Lasso Regularization
-- Adstock Transformation
-- Saturation Curves
-- ROI Decomposition
-- Executive Dashboard
+---
 
 ## Tech Stack
 
 - Python
+- SQL
 - PySpark
 - Pandas
+- NumPy
+- Scikit-learn
 - Statsmodels
 - Plotly
 
-## Project Structure
+---
 
-(Insert folder tree)
+## Repository Structure
 
-## Future Roadmap
+```text
+data/
+notebooks/
+src/
+docs/
+dashboards/
+tests/
+```
 
-- Hierarchical Bayesian MMM
-- Multi-touch Attribution
-- Budget Optimization
-- GenAI Insight Generator
+---
+
+## Disclaimer
+
+This project is an independently developed educational implementation inspired by enterprise marketing analytics workflows. No proprietary company code or confidential datasets are included.
